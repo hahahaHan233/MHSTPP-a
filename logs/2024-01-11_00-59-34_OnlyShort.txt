@@ -1,0 +1,82 @@
+2024-01-11 00:59:35,291 - comment:2024-01-11_00-59-34_OnlyShort
+2024-01-11 00:59:35,291 - device:cuda:0
+2024-01-11 00:59:35,291 - +++++++++++++ Dataset: NYC ++++++++++++++++
+2024-01-11 00:59:35,320 - 1.Check the local data...
+2024-01-11 00:59:35,326 - 2.Check preprocessed data successfully!
+2024-01-11 00:59:35,326 - 3.Start running model...
+2024-01-11 00:59:37,133 - dataset_name: NYC
+2024-01-11 00:59:37,133 - file_path_tr: ./processed_data\NYC\NYC_train.txt
+2024-01-11 00:59:37,133 - file_path_te: ./processed_data\NYC\NYC_test.txt
+2024-01-11 00:59:37,133 - poi_position_path: ./processed_data\NYC\NYC_POI_position.txt
+2024-01-11 00:59:37,133 - emb_size: 512
+2024-01-11 00:59:37,133 - neg_size: 5
+2024-01-11 00:59:37,133 - hist_len: 32
+2024-01-11 00:59:37,133 - user_count: 1083
+2024-01-11 00:59:37,133 - item_count: 5002
+2024-01-11 00:59:37,133 - learning_rate: 0.0005
+2024-01-11 00:59:37,133 - decay: 0.01
+2024-01-11 00:59:37,133 - batch_size: 512
+2024-01-11 00:59:37,133 - epoch_num: 50
+2024-01-11 00:59:37,133 - top_n: 20
+2024-01-11 00:59:37,133 - num_workers: 0
+2024-01-11 01:04:54,109 - Best epoch:0
+top@N	Recall	MRR
+1	0.2656	0.2656
+5	0.5541	0.3773
+10	0.6238	0.3869
+20	0.6694	0.3902
+
+2024-01-11 01:04:54,204 - +++++++++++++ Dataset: TKY ++++++++++++++++
+2024-01-11 01:04:54,278 - 1.Check the local data...
+2024-01-11 01:04:54,303 - 2.Check preprocessed data successfully!
+2024-01-11 01:04:54,303 - 3.Start running model...
+2024-01-11 01:04:59,228 - dataset_name: TKY
+2024-01-11 01:04:59,228 - file_path_tr: ./processed_data\TKY\TKY_train.txt
+2024-01-11 01:04:59,228 - file_path_te: ./processed_data\TKY\TKY_test.txt
+2024-01-11 01:04:59,228 - poi_position_path: ./processed_data\TKY\TKY_POI_position.txt
+2024-01-11 01:04:59,228 - emb_size: 512
+2024-01-11 01:04:59,228 - neg_size: 5
+2024-01-11 01:04:59,228 - hist_len: 32
+2024-01-11 01:04:59,228 - user_count: 2293
+2024-01-11 01:04:59,228 - item_count: 7676
+2024-01-11 01:04:59,228 - learning_rate: 0.0005
+2024-01-11 01:04:59,228 - decay: 0.01
+2024-01-11 01:04:59,228 - batch_size: 512
+2024-01-11 01:04:59,228 - epoch_num: 50
+2024-01-11 01:04:59,228 - top_n: 20
+2024-01-11 01:04:59,228 - num_workers: 0
+2024-01-11 01:23:43,480 - Best epoch:2
+top@N	Recall	MRR
+1	0.2019	0.2019
+5	0.4465	0.2929
+10	0.5259	0.3038
+20	0.5937	0.3086
+
+2024-01-11 01:23:43,928 - +++++++++++++ Dataset: SIN ++++++++++++++++
+2024-01-11 01:23:43,966 - 1.Check the local data...
+2024-01-11 01:23:43,987 - 2.Check preprocessed data successfully!
+2024-01-11 01:23:43,987 - 3.Start running model...
+2024-01-11 01:23:48,572 - dataset_name: SIN
+2024-01-11 01:23:48,572 - file_path_tr: ./processed_data\SIN\SIN_train.txt
+2024-01-11 01:23:48,572 - file_path_te: ./processed_data\SIN\SIN_test.txt
+2024-01-11 01:23:48,572 - poi_position_path: ./processed_data\SIN\SIN_POI_position.txt
+2024-01-11 01:23:48,572 - emb_size: 512
+2024-01-11 01:23:48,572 - neg_size: 5
+2024-01-11 01:23:48,572 - hist_len: 32
+2024-01-11 01:23:48,572 - user_count: 3745
+2024-01-11 01:23:48,573 - item_count: 5511
+2024-01-11 01:23:48,573 - learning_rate: 0.0005
+2024-01-11 01:23:48,573 - decay: 0.01
+2024-01-11 01:23:48,573 - batch_size: 512
+2024-01-11 01:23:48,573 - epoch_num: 50
+2024-01-11 01:23:48,573 - top_n: 20
+2024-01-11 01:23:48,573 - num_workers: 0
+2024-01-11 01:38:48,922 - Best epoch:3
+top@N	Recall	MRR
+1	0.1466	0.1466
+5	0.3183	0.2109
+10	0.3842	0.2198
+20	0.4454	0.2241
+
+2024-01-11 01:38:50,275 - Final results saved to local.
+2024-01-11 01:38:50,275 - 4.Finish the training successfully!

@@ -1,0 +1,97 @@
+2024-01-08 03:54:33,313 - comment:2024-01-08_03-54-32_FULL
+2024-01-08 03:54:33,313 - device:cuda:0
+2024-01-08 03:54:33,313 - +++++++++++++ Dataset: NYC ++++++++++++++++
+2024-01-08 03:54:33,342 - 1.Start preprocess data...
+2024-01-08 03:54:34,686 - 2.Finish processed data successfully!
+2024-01-08 03:54:34,686 - 3.Start running model...
+2024-01-08 03:54:34,697 - Start generating training sample...
+2024-01-08 03:54:40,761 - Finish generating training sample...
+2024-01-08 03:54:40,761 - Start generating testing sample...
+2024-01-08 03:54:41,649 - Finish generating testing sample...
+2024-01-08 03:54:47,202 - dataset_name: NYC
+2024-01-08 03:54:47,202 - file_path_tr: ./processed_data\NYC\NYC_train.txt
+2024-01-08 03:54:47,202 - file_path_te: ./processed_data\NYC\NYC_test.txt
+2024-01-08 03:54:47,202 - poi_position_path: ./processed_data\NYC\NYC_POI_position.txt
+2024-01-08 03:54:47,202 - emb_size: 512
+2024-01-08 03:54:47,202 - neg_size: 5
+2024-01-08 03:54:47,202 - hist_len: 32
+2024-01-08 03:54:47,202 - user_count: 1083
+2024-01-08 03:54:47,202 - item_count: 5002
+2024-01-08 03:54:47,202 - learning_rate: 0.0005
+2024-01-08 03:54:47,202 - decay: 0.01
+2024-01-08 03:54:47,202 - batch_size: 512
+2024-01-08 03:54:47,202 - test_and_save_step: 10
+2024-01-08 03:54:47,202 - epoch_num: 50
+2024-01-08 03:54:47,202 - top_n: 20
+2024-01-08 03:54:47,202 - num_workers: 0
+2024-01-08 04:00:14,971 - Best epoch:14
+top@N	Recall	MRR
+1	0.2630	0.2630
+5	0.5530	0.3749
+10	0.6266	0.3850
+20	0.6709	0.3882
+
+2024-01-08 04:00:15,052 - +++++++++++++ Dataset: TKY ++++++++++++++++
+2024-01-08 04:00:15,127 - 1.Start preprocess data...
+2024-01-08 04:00:18,160 - 2.Finish processed data successfully!
+2024-01-08 04:00:18,160 - 3.Start running model...
+2024-01-08 04:00:18,177 - Start generating training sample...
+2024-01-08 04:00:37,430 - Finish generating training sample...
+2024-01-08 04:00:37,430 - Start generating testing sample...
+2024-01-08 04:00:39,383 - Finish generating testing sample...
+2024-01-08 04:00:57,060 - dataset_name: TKY
+2024-01-08 04:00:57,060 - file_path_tr: ./processed_data\TKY\TKY_train.txt
+2024-01-08 04:00:57,060 - file_path_te: ./processed_data\TKY\TKY_test.txt
+2024-01-08 04:00:57,060 - poi_position_path: ./processed_data\TKY\TKY_POI_position.txt
+2024-01-08 04:00:57,060 - emb_size: 512
+2024-01-08 04:00:57,060 - neg_size: 5
+2024-01-08 04:00:57,060 - hist_len: 32
+2024-01-08 04:00:57,060 - user_count: 2293
+2024-01-08 04:00:57,060 - item_count: 7676
+2024-01-08 04:00:57,060 - learning_rate: 0.0005
+2024-01-08 04:00:57,060 - decay: 0.01
+2024-01-08 04:00:57,060 - batch_size: 512
+2024-01-08 04:00:57,060 - test_and_save_step: 10
+2024-01-08 04:00:57,060 - epoch_num: 50
+2024-01-08 04:00:57,060 - top_n: 20
+2024-01-08 04:00:57,060 - num_workers: 0
+2024-01-08 04:22:48,254 - Best epoch:6
+top@N	Recall	MRR
+1	0.1987	0.1987
+5	0.4456	0.2907
+10	0.5275	0.3018
+20	0.5943	0.3065
+
+2024-01-08 04:22:48,496 - +++++++++++++ Dataset: SIN ++++++++++++++++
+2024-01-08 04:22:48,531 - 1.Start preprocess data...
+2024-01-08 04:22:51,750 - 2.Finish processed data successfully!
+2024-01-08 04:22:51,750 - 3.Start running model...
+2024-01-08 04:22:51,767 - Start generating training sample...
+2024-01-08 04:23:13,952 - Finish generating training sample...
+2024-01-08 04:23:13,952 - Start generating testing sample...
+2024-01-08 04:23:17,135 - Finish generating testing sample...
+2024-01-08 04:23:31,130 - dataset_name: SIN
+2024-01-08 04:23:31,130 - file_path_tr: ./processed_data\SIN\SIN_train.txt
+2024-01-08 04:23:31,130 - file_path_te: ./processed_data\SIN\SIN_test.txt
+2024-01-08 04:23:31,130 - poi_position_path: ./processed_data\SIN\SIN_POI_position.txt
+2024-01-08 04:23:31,130 - emb_size: 512
+2024-01-08 04:23:31,130 - neg_size: 5
+2024-01-08 04:23:31,130 - hist_len: 32
+2024-01-08 04:23:31,130 - user_count: 3745
+2024-01-08 04:23:31,130 - item_count: 5511
+2024-01-08 04:23:31,130 - learning_rate: 0.0005
+2024-01-08 04:23:31,130 - decay: 0.01
+2024-01-08 04:23:31,130 - batch_size: 512
+2024-01-08 04:23:31,130 - test_and_save_step: 10
+2024-01-08 04:23:31,130 - epoch_num: 50
+2024-01-08 04:23:31,130 - top_n: 20
+2024-01-08 04:23:31,130 - num_workers: 0
+2024-01-08 04:35:50,349 - Best epoch:8
+top@N	Recall	MRR
+1	0.1459	0.1459
+5	0.3190	0.2105
+10	0.3847	0.2194
+20	0.4464	0.2237
+
+2024-01-08 04:35:50,675 - Final results saved to local.
+2024-01-08 04:35:50,676 - 4.Finish the training successfully!

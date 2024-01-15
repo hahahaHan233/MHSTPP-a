@@ -1,0 +1,21 @@
+2024-01-14 02:16:00,611 - comment:2024-01-14_02-15-59_OnlyTime_2
+2024-01-14 02:16:00,611 - device:cuda:0
+2024-01-14 02:16:00,611 - +++++++++++++ Dataset: NYC ++++++++++++++++
+2024-01-14 02:16:00,639 - 1.Check the local data...
+2024-01-14 02:16:00,645 - 2.Check preprocessed data successfully!
+2024-01-14 02:16:00,645 - 3.Start running model...
+2024-01-14 02:16:02,329 - dataset_name: NYC
+2024-01-14 02:16:02,329 - file_path_tr: ./processed_data\NYC\NYC_train.txt
+2024-01-14 02:16:02,329 - file_path_te: ./processed_data\NYC\NYC_test.txt
+2024-01-14 02:16:02,330 - poi_position_path: ./processed_data\NYC\NYC_POI_position.txt
+2024-01-14 02:16:02,330 - emb_size: 512
+2024-01-14 02:16:02,330 - neg_size: 5
+2024-01-14 02:16:02,330 - hist_len: 32
+2024-01-14 02:16:02,330 - user_count: 1083
+2024-01-14 02:16:02,330 - item_count: 5002
+2024-01-14 02:16:02,330 - learning_rate: 0.0005
+2024-01-14 02:16:02,330 - decay: 0.01
+2024-01-14 02:16:02,330 - batch_size: 512
+2024-01-14 02:16:02,330 - epoch_num: 50
+2024-01-14 02:16:02,330 - top_n: 20
+2024-01-14 02:16:02,330 - num_workers: 0
